@@ -260,7 +260,6 @@ app.get("/api/emails", ensureAuthenticated, async (req, res) => {
         return {
           subject,
           snippet,
-          cleanedData,
           jobsList,
         };
       })
